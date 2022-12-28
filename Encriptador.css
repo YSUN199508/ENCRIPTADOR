@@ -260,5 +260,137 @@ main {
     width: 100px;
     height: 67px;
     left: 150px;
-    top: 650px;
+    top: 160px;
+}
+
+
+@media screen and (max-width:480px){
+    body{
+        position: relative;
+        width: 375px;
+        height: 933px;
+    
+        background: #F3F5FC;
+    }
+
+    header{
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Logo{
+        position: absolute;
+        left: 40%;
+        top: 1%;
+        bottom: 25%;
+    }
+
+    .mensaje-Caja {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        
+        position: absolute;
+        width: 300px;
+        height: 186px;
+        left: 1px;
+        top: 707px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    #anuncios{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    
+        width: 263px;
+        height: 122px;
+        left: 1px;
+        top: 707px;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    #muñeco{
+        display: none;
+    }
+
+    #aviso{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 16px;
+        top: 451px;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 485px;
+    }
+
+    .CajaText{
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        top: 160px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        
+        color: #0A3871;
+    }
+
+    .copiar {
+        box-sizing: border-box;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        width: 90px;
+        height: 67px;  
+        
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
 }
