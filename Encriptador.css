@@ -300,9 +300,7 @@ main {
         left: 1px;
         top: 660px;
         
-        background: #FFFFFF;
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 32px;
+        background: none;
     }
 
     #anuncios{

@@ -8,9 +8,12 @@ function encriptar() {
 
     document.getElementById("muñeco").style.display = "none";
     document.getElementById("subt").style.display = "none";
+    document.getElementById("anuncios").style.top = "15px";
     document.getElementById("resultado").innerHTML = txtcifrado;
+    document.getElementById("resultado").style.height = "450px";
     document.getElementById("copiar").style.display = "show";
     document.getElementById("copiar").style.display = "inherit";
+    document.getElementById("copiar").style.top = "500px";
 }
 
 
